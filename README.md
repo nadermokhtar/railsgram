@@ -5,20 +5,21 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+- Ruby version => 2.7.2
 
-* System dependencies
+- System dependencies => nil
 
-* Configuration
+- Configuration => nil
 
-* Database creation
+- Database creation => rails db:setup
 
-* Database initialization
+- Database initialization => rails db:migrate
 
-* How to run the test suite
+- How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+- Services (job queues, cache servers, search engines, etc.)
+  - bin/webpack-dev-server
+  - rails s
+- Deployment instructions
 
-* Deployment instructions
-
-* ...
+- ...
